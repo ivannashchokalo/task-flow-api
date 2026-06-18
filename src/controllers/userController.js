@@ -17,3 +17,7 @@ export const updateUserAvatar = async (req, res, next) => {
 
   res.status(200).json({ url: user.avatar });
 };
+
+export const getMe = async (req, res) => {
+  res.status(200).json(req.user);
+};
