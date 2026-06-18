@@ -18,7 +18,7 @@ app.use(logger);
 app.use(express.json());
 app.use(
   cors({
-    origin: process.env.FRONTEND_DOMAIN,
+    origin: [process.env.LOCAL_FRONTEND_DOMAIN, process.env.FRONTEND_DOMAIN],
     credentials: true,
   }),
 );

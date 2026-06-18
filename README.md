@@ -124,6 +124,7 @@ PORT=3000
 NODE_ENV=development
 MONGO_URL=your_mongodb_connection_string
 
+LOCAL_FRONTEND_DOMAIN=http://localhost:3001
 FRONTEND_DOMAIN=https://your-frontend-domain.com
 
 
