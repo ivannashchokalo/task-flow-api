@@ -122,8 +122,10 @@ Then replace the placeholder values with your own credentials:
 ```env
 PORT=3000
 NODE_ENV=development
-
 MONGO_URL=your_mongodb_connection_string
+
+FRONTEND_DOMAIN=https://your-frontend-domain.com
+
 
 SMTP_HOST=smtp-relay.brevo.com
 SMTP_PORT=587
@@ -132,8 +134,6 @@ SMTP_PASSWORD=your_smtp_password
 SMTP_FROM=your_email
 
 JWT_SECRET=your_jwt_secret
-
-FRONTEND_DOMAIN=https://your-frontend-domain.com
 
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
